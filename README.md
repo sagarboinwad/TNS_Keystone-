@@ -14,21 +14,21 @@ The project also includes Dark Mode and Download as PDF features.
 - Fully responsive design  
 
 
-**Project Structure**
-WebPortfolioMaker/
-│index.html
-│style.css
-│script.js
-│assets/
-│     └── (uploaded images)
+## Project Structure
+- WebPortfolioMaker/
+- │index.html
+- │style.css
+- │script.js
+- │assets/
+-  │     └── (uploaded images)
 
 
-**How to Run**
-1.Download or clone the project.
-2.Open index.html in your browser (Chrome recommended).
-3.Enter your details and generate portfolio.
+## How to Run
+- Download or clone the project.
+- Open index.html in your browser (Chrome recommended).
+- Enter your details and generate portfolio.
 
-**Technologies Used**
-HTML5
-CSS3
-JavaScript
+## Technologies Used
+- HTML
+- CSS
+- JavaScript

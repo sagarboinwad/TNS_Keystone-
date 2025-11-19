@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    background: #4caf50;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-section, .portfolio-section {
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.form-section input,
+.form-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.project-input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.project-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.portfolio-section {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}

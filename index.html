@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Portfolio Maker</title>
+    <title>Advanced Portfolio Maker</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <h1 class="title">Portfolio Maker</h1>
+    <button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
+
+    <h1 class="title">Advanced Portfolio Maker</h1>
 
     <div class="container">
+
+        <!-- FORM SECTION -->
         <div class="form-section">
             <h2>Enter Your Details</h2>
+
+            <label>Profile Image:</label>
+            <div id="image-preview">Drop Image</div>
+            <input type="file" id="profile-img" accept="image/*">
 
             <label>Name:</label>
             <input type="text" id="name">
@@ -26,9 +35,9 @@
             <label>Skills (comma separated):</label>
             <input type="text" id="skills">
 
+            <h3>Projects</h3>
 
-            <h3>Projects:</h3>
-             <div id="projects-container">
+            <div id="projects-container">
                 <div class="project-input">
                     <label>Project Title:</label>
                     <input type="text" class="project-title">
@@ -37,17 +46,23 @@
                     <textarea class="project-desc"></textarea>
                 </div>
             </div>
-            <button onclick="addProject()">+ Add Another Project</button>
+
+            <button onclick="addProject()">+ Add More Projects</button>
             <br><br>
 
             <button onclick="generatePortfolio()">Generate Portfolio</button>
+            <br><br>
+
+            <button onclick="window.print()">Download PDF</button>
         </div>
 
+        <!-- OUTPUT SECTION -->
         <div id="portfolio-output" class="portfolio-section">
             <h2>Your Portfolio Will Appear Here</h2>
         </div>
+
     </div>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
